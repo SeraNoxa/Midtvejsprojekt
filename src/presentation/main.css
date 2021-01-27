@@ -1,0 +1,33 @@
+.root{
+    -fx-font-size: 10pt;
+    -fx-font-family: "Good Timing Rg";
+    -fx-base: rgb(50, 51, 172);
+    /*
+    -fx-background: rgb(66, 135, 245);
+     */
+}
+.button{
+    -fx-border-color: rgb(0, 0, 0);
+    -fx-border-radius: 3;
+    -fx-padding: 5 10 5 10;
+    -fx-spacing: 10;
+}
+#startmenu{
+    -fx-background-image: url("logo.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#attack{
+    -fx-min-height: 77;
+    -fx-min-width: 77;
+    -fx-background-image: url("fight.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#heal{
+    -fx-min-height: 77;
+    -fx-min-width: 77;
+    -fx-background-image: url("heal.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
